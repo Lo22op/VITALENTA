@@ -1,0 +1,128 @@
+/* Line */
+.Line{
+    animation-name: chang-time ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    transition: 0.5s;
+}
+@keyframes chang-time {
+    0%{
+        color: #a1fcdd ;
+    }
+    5%{
+        color: #10b981;
+    }
+    20%{
+        color: #ef4444;
+    }
+    50%{
+        color: #2563eb;
+    }
+    80%{
+        color: #10b981;
+    }
+    90%{
+        color: #f43f5e;
+    }
+    100%{
+        color:black 
+    }
+}
+/* Line */
+/* parallax */
+.parallax {
+    overflow: hidden;
+    letter-spacing: 0;
+    line-height: 1.5;
+    white-space: nowrap;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.parallax .scroller{
+    font-family: TanPearl,sans-serif;
+    text-transform: uppercase;
+    font-size: 10vw;
+    white-space: nowrap;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 2vw;
+    animation-name: chang-time ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    transition: 0.5s;
+}
+@keyframes chang-time {
+    0%{
+        transform: translateX(-10%) ;
+    }
+    5%{
+        transform: translateX(-20%);
+    }
+    10%{
+        transform: translateX(-30%)
+    }
+    25%{
+        color: #ef4444;
+        transform: translateX(-40%)
+    }
+    90%{
+        transform: translateX(-50%)
+    }
+    100%{
+        transform: translateX(-60%)
+    }
+}
+
+.parallax .scrollerx{
+    font-family: TanPearl,sans-serif;
+    text-transform: uppercase;
+    font-size: 10vw;
+    white-space: nowrap;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 2vw;
+    animation-name: chang-pex ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    transition: 0.5s;
+}
+@keyframes chang-pex {
+    0%{
+        transform: translateX(-11%) ;
+    }
+    5%{
+        color: #4b48ffc0;
+        transform: translateX(-22%);
+    }
+    10%{
+        transform: translateX(-33%)
+    }
+    25%{
+        transform: translateX(-44%)
+    }
+    90%{
+        color: #2e2e2ec0;
+        transform: translateX(-55%)
+    }
+    100%{
+        transform: translateX(-66%)
+    }
+}
+/* parallax */
+/* BREAKFAST */
+@media (max-width: 539px) {
+    #BREAKFAST h1{
+        font-size: 25px;
+    }
+    #LUNCH h1{
+        font-size: 25px;
+    }
+    #DINNER h1{
+        font-size: 25px;
+    }
+}
+/*  */

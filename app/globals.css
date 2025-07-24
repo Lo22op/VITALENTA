@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+body{
+  padding-left: 22px;
+  padding-right: 22px ;
+  margin: auto;
+  background-color: #ece5d5;    
+}
+
+/* btn */
+.btn{
+    animation-name: chang-color;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+  
+@keyframes chang-color {
+    0%{
+      background-color: white ;
+    }
+    5%{
+      color: black;
+    }
+    100%{
+      background-color: black ;
+    }
+}
+/* btn */
+
+/* menu */
+.menu{
+    position: fixed;
+    transition: 0.5s;
+    z-index: 999;
+}
+/* menu */

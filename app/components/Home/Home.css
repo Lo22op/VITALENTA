@@ -1,0 +1,46 @@
+/* Home */
+@media (max-width: 841px) {
+    #home h1{
+       font-size: 100px;
+    }
+}
+@media (max-width: 539px) {
+    #home h1{
+       font-size: 40px;
+    }
+}
+/* Home */
+
+/* About */
+@media (max-width: 749px) {
+    #About #One p{
+       font-size: 25px;
+       width: 50%;
+    }
+    #About #Two p{
+        font-size: 25px;
+    }
+}
+@media (max-width: 539px) {
+    #About #One{
+        display: block;
+    }
+    #About #One p{
+        text-align: center;
+       font-size: 25px;
+       width: 100%;
+    }
+    #About #Two{
+        display: block;
+    }
+    #About #Two p{
+        text-align: center;
+       font-size: 25px;
+       width: 100%;
+    }
+}
+/* About */
+
+
+
+
