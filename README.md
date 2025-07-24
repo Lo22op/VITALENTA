@@ -47,10 +47,4 @@ That’s how **VITALENTA** was born.
 - Two main **"About"** sections narrating the restaurant’s fictional history and philosophy
 - A set of gallery images in a clean grid layout
 
----
 
-## 🛠️ Notes for Developers
-
-- ESLint rule `@next/next/no-img-element` is disabled intentionally:
-  ```js
-  /* eslint-disable @next/next/no-img-element */
